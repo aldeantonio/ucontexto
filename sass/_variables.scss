@@ -1,0 +1,28 @@
+
+// Fontes
+//fonts
+@font-face {
+    font-family: 'AeonikTRIAL';
+    src: url('fonts/AeonikTRIAL-Bold.woff') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;700&display=swap');
+
+$font-title: "AeonikTRIAL", sans-serif;
+$font-text: "Inter", sans-serif;
+
+
+// Cores
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #6D6D6D;
+
+// Espaçamento
+$space-small: 20px;
+$space-medium: 35px;
+$space-large: 50px;
+$space-xlarge: 100px;
+    
+    
