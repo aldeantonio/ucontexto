@@ -49,6 +49,22 @@ header {
     }
   }
 
+  .container-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .logo {
+
+      h1 {
+        font-size: 25px;
+        font-weight: bold;
+
+      }
+    }
+  }
+
 
 }
 
