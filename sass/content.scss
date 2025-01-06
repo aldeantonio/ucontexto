@@ -103,6 +103,12 @@
 
   .a-title {
     margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: underline;
+    }
   }
   .a-content {
 
