@@ -11,11 +11,11 @@ import noticia3 from './assets/news-images/cover-negocio.jpg';
 
 const newsData = [
   {
-    title: 'Notícia 1',
-    description: 'Descrição breve da notícia 1.',
+    title: 'O Renascimento Digital: Como a Arte Tradicional está Ganhando Vida no Mundo Virtul',
+    description: 'Este renascimento digital não é apenas uma nova forma de expressão; é também uma maneira de conectar culturas, ressignificar o valor da arte tradicional e torná-la mais...',
     image: noticia1,
-    author: 'Autor 1',
-    date: 'Data 1',
+    author: 'Alde Ivaro',
+    date: 'Janeiro 2023',
   },
   {
     title: 'Notícia 2',
@@ -30,27 +30,6 @@ const newsData = [
     image: noticia3,
     author: 'Autor 3',
     date: 'Data 3',
-  },
-  {
-    title: 'Notícia 4',
-    description: 'Descrição breve da notícia 4.',
-    image: noticia1,
-    author: 'Autor 4',
-    date: 'Data 4',
-  },
-  {
-    title: 'Notícia 5',
-    description: 'Descrição breve da notícia 5.',
-    image: noticia2,
-    author: 'Autor 5',
-    date: 'Data 5',
-  },
-  {
-    title: 'Notícia 6',
-    description: 'Descrição breve da notícia 6.',
-    image: noticia3,
-    author: 'Autor 6',
-    date: 'Data 6',
   },
 ];
 
