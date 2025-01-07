@@ -18,14 +18,13 @@
     background-color: red;
     padding: 5px 10px;
     color: white;
+    margin: 10px;
 }
 
-.feed-card-line-dev {
-  display: flex;
-    font-size: 14px;
-    background-color: blue;
-    color: white;
+.feed-card-line p {
+  margin: 0;
 }
+
 
 
   .feed-card {
