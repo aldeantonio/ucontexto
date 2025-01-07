@@ -39,4 +39,33 @@
     font-size: 14px;
     color: #666;
   }
+
+  .feed-card-author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .feed-card-author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+
+  .feed-card-author-info {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .feed-card-author-name {
+    font-weight: bold; 
+    font-size: 16px;
+    color: #333;
+  }
+
+  .feed-card-author-date {
+    font-size: 12px;
+    color: #999;
+  }
   
