@@ -13,6 +13,21 @@
     }
 }
 
+.feed-card-line {
+    font-size: 14px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+}
+
+.feed-card-line-dev {
+  display: flex;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+}
+
+
   .feed-card {
     background-color: #fff;
     /* border: 1px solid #ddd; */

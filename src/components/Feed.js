@@ -8,6 +8,12 @@ const Feed = ({ news }) => {
         <div className="feed-card" key={index}>
           <img src={item.image} alt={item.title} className="feed-card-image" />
           <div className="feed-card-content">
+            <div className='feed-card-line'>
+              <div className='feed-card-line-dev'>
+                <p>{item.line}</p>
+              </div>
+            </div>
+
             <h3 className="feed-card-title">{item.title}</h3>
             <p className="feed-card-description">{item.description}</p>
             <div className='feed-card-author'>

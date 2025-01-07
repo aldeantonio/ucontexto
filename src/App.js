@@ -14,6 +14,7 @@ import noticia7 from './assets/news-images/noticias7.jpg';
 const newsData = [
   {
     title: 'O Renascimento Digital: Como a Arte Tradicional está Ganhando Vida no Mundo Virtual',
+    line: 'Artes',
     description: 'Este renascimento digital não é apenas uma nova forma de expressão; é também uma maneira de conectar culturas, ressignificar o valor da arte tradicional e torná-la mais...',
     image: noticia1,
     author: 'Alde Ivaro',
