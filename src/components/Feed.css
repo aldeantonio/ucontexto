@@ -1,0 +1,42 @@
+.feed-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    gap: 20px; /* Espaçamento entre os cards */
+      }
+  
+  .feed-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feed-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feed-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .feed-card-content {
+    padding: 15px;
+  }
+  
+  .feed-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .feed-card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
