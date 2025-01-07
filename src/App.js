@@ -9,6 +9,7 @@ import './App.css';
 import noticia1 from './assets/news-images/cover-ia.jpg';
 import noticia2 from './assets/news-images/cover-arte.jpg';
 import noticia3 from './assets/news-images/cover-negocio.jpg';
+import noticia7 from './assets/news-images/noticias7.jpg';
 
 const newsData = [
   {
@@ -35,9 +36,9 @@ const newsData = [
 ];
 
 const spotlightData = {
-  image: noticia1, // Substitua pela URL da sua imagem
-  title: 'Destaque do Dia',
-  summary: 'Esta é uma breve descrição da notícia ou artigo em destaque.',
+  image: noticia7, // Substitua pela URL da sua imagem
+  title: 'África com 590 milhões de pessoas sem electricidade ',
+  summary: 'O acesso à electricidade no continente africano continua a ser uma meta distante, particularmente nas áreas rurais, onde a conectividade é limitada ou não existe”, avanca o relatório sobre ‘O Estado da Energia Africana em 2025’, citado pelo Notícias ao Minuto, que acrescenta',
   author: 'Aldo Silva',
   date: '07 de Janeiro de 2025',
 };
