@@ -22,6 +22,7 @@ const newsData = [
   },
   {
     title: 'Notícia 2',
+    line: 'Artes',
     description: 'Descrição breve da notícia 2.',
     image: noticia2,
     author: 'Autor 2',
@@ -29,12 +30,13 @@ const newsData = [
   },
   {
     title: 'Notícia 3',
+    line: 'Artes',
     description: 'Descrição breve da notícia 3.',
     image: noticia3,
     author: 'Autor 3',
     date: 'Data 3',
   },
-];
+];    
 
 const spotlightData = {
   image: noticia7, // Substitua pela URL da sua imagem
