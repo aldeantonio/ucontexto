@@ -1,3 +1,18 @@
-@import './styles/variables';
+@import 'reset';
+@import 'variables';
 @import './styles/mixins';
-@import './styles/global';
+@import './styles/fixer';
+@import './styles/base';
+@import './styles/layout';
+@import './styles/content';
+@import './styles/components';
+
+
+// @import 'reset';
+// @import 'variables';
+// @import 'mixins';
+// @import 'fixer';
+// @import 'base';
+// @import 'layout';
+// @import 'content';
+// @import 'components';
