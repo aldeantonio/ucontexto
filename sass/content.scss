@@ -2,5 +2,29 @@
 
 
 .hero {
-    height: 100dvh;
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90dvh;
+
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 50%;
+            line-height: 1.5;
+            text-align: center;
+            @include tablet {
+                width: 70%;
+            }
+            @include mobile {
+                width: 90%;
+            }
+        }
+    }
 }
