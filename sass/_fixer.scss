@@ -15,7 +15,7 @@ header {
 
     .menu {
 
-      @include mobile {
+      @include tablet {
         display: none;
       }
       ul {
@@ -26,13 +26,13 @@ header {
 
     .menu-hamburger {
       display: none;
-      @include mobile {
+      @include tablet {
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 5px;
         span {
           position: relative;
-          background-color: red;
+          background-color: $color-black;
           width: 50px;
           height: 3px;
         }
