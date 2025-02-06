@@ -28,3 +28,40 @@
         }
     }
 }
+
+.lastest {
+    margin: 100px 0;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        @include tablet {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include mobile {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .item {
+            height: 400px;
+            position: relative;
+            .item-content {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                padding: 20px;
+                bottom: 0;
+                z-index: 10;
+                color: $color-white;
+            }
+            &:before {
+                position: absolute;
+                z-index: 5;
+                content: '';
+                background-color: rgba($color: #000000, $alpha: 0.4);
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
