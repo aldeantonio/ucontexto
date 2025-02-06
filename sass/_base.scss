@@ -1,5 +1,6 @@
-body {  
-  font-family: $font-primary;
+body {
+  font-family: $font-text;
+  font-size: 16px;
   color: $color-black;
   background-color: $color-white;
 }
@@ -7,10 +8,9 @@ body {
 .cover-image {
   position: relative;
   width: 100%;
-  
+
   > img {
-    display: block;
-    overflow: hidden;
+      display: block;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -23,13 +23,13 @@ body {
 h1,
 h2,
 h3 {
-  font-family: $font-secondary;
+  font-family: $font-title;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 60px;
   line-height: 1;
-  padding-bottom: 20px;
 
   @include tablet {
     font-size: 50px;
@@ -54,11 +54,9 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
-  line-height: 1;
-  @include mobile {
-    font-size: 20px;
-  }
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
 }
 
 h4 {
@@ -67,5 +65,4 @@ h4 {
 
 p {
   font-size: 17px;
-  line-height: 22px;
 }
