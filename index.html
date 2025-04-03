@@ -1,94 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnTexto - Jornal Independente</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-
-    <header>
+    <header class="site-header">
         <div class="container">
-            <div class="head">
-
-                <div class="logo">
-                    <h1>Logo</h1>
-                </div>
-
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <a href="#">Subscribes</a>
-                    </ul>
-                </div>
-
-                <div class="menu-hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                
-            </div>
+            <h1 class="logo">UnTexto</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Cultura</a></li>
+                    <li><a href="#">Opinião</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- <div class="menu-mobile">
-        <div class="container">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Articles</a></li>
-                <a href="#">Subscribes</a>
-            </ul>
-
-        </div>
-    </div> -->
-
-    <div class="hero cover-image">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Slow Travaling</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi, unde omnis vero reprehenderit praesentium ex tenetur cum vitae repudiandae?</p>
-            </div>
-        </div>
-    </div>
-
-    <section class="lastest">
-        <div class="container">
-            <div class="lastest-content">
-                <h2>Latest Articles</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iste cumque magnam ipsam, cupiditate eligendi nulla nesciunt quidem itaque dolorem.</p>
-                <div class="grid">
-                    <div class="item cover-image">
-                        <img src="assets/imagens/beach.jpg" alt="">
-                        <div class="item-content">
-                            <h3>Tunizia</h3>
-                            <p>Beatiful Paradise</p>
-                        </div>
-                    </div>
-                    <div class="item cover-image">
-                        <img src="assets/imagens/beach.jpg" alt="">
-                        <div class="item-content">
-                            <h3>Tunizia</h3>
-                            <p>Beatiful Paradise</p>
-                        </div>
-                    </div>
-                    <div class="item cover-image">
-                        <img src="assets/imagens/beach.jpg" alt="">
-                        <div class="item-content">
-                            <h3>Tunizia</h3>
-                            <p>Beatiful Paradise</p>
-                        </div>
-                    </div>
-
+    <main class="container">
+        <section class="featured-article">
+            <article>
+                <img src="/" alt="Destaque">
+                <div class="article-content">
+                    <h2>Título da Matéria Principal</h2>
+                    <p class="meta">Por <span class="author">Autor</span> | <time datetime="2023-11-15">15 de Novembro 2023</time></p>
+                    <p>Resumo ou início do artigo principal...</p>
+                    <a href="articles/artigo1.html" class="read-more">Ler mais</a>
                 </div>
-            </div>
+            </article>
+        </section>
+
+        <section class="article-grid">
+            <article class="article-card">
+                <h3>Título do Artigo 1</h3>
+                <p class="meta">Categoria | Data</p>
+                <p>Breve resumo...</p>
+                <a href="#" class="read-more">Ler mais</a>
+            </article>
+            
+            <!-- Repetir para outros artigos -->
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2023 UnTexto - Todos os direitos reservados</p>
         </div>
+    </footer>
 
-    </section>
-
-
-    
+    <script src="js/main.js"></script>
 </body>
 </html>
